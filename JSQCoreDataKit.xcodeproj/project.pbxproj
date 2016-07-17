@@ -466,18 +466,31 @@
 					};
 					881219C21B361EAF005E5AA7 = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 5VRJU68BZ5;
+						DevelopmentTeamName = "Jesse Squires";
+						LastSwiftMigration = 0800;
 					};
 					883C83DA1C0D7647007A16F5 = {
 						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 5VRJU68BZ5;
+						DevelopmentTeamName = "Jesse Squires";
 					};
 					887403121C0D6A6D00FE0C31 = {
 						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 5VRJU68BZ5;
+						DevelopmentTeamName = "Jesse Squires";
 					};
 					88AC4B321C0FD8DA00A04563 = {
 						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 5VRJU68BZ5;
+						DevelopmentTeamName = "Jesse Squires";
+						ProvisioningStyle = Automatic;
 					};
 					88DF3CB91CDCE89000726A31 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 5VRJU68BZ5;
+						DevelopmentTeamName = "Jesse Squires";
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -829,7 +842,7 @@
 				PRODUCT_NAME = JSQCoreDataKit;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 2.3;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -857,7 +870,7 @@
 				PRODUCT_NAME = JSQCoreDataKit;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 2.3;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -872,6 +885,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.hexedbits.JSQCoreDataKitTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -885,6 +899,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.hexedbits.JSQCoreDataKitTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -973,7 +988,7 @@
 		88AC4B381C0FD8DB00A04563 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
@@ -995,7 +1010,7 @@
 		88AC4B391C0FD8DB00A04563 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -1018,7 +1033,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ANALYZER_NONNULL = YES;
-				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				INFOPLIST_FILE = Tests/Info.plist;
@@ -1034,7 +1049,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ANALYZER_NONNULL = YES;
-				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
