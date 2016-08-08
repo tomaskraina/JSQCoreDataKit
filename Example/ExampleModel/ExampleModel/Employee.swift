@@ -20,16 +20,10 @@ import Foundation
 import CoreData
 import JSQCoreDataKit
 
-public final class Employee: NSManagedObject, CoreDataEntityProtocol {
-
-    // MARK: CoreDataEntityProtocol
-
-    public static let defaultSortDescriptors = [ NSSortDescriptor(key: "name", ascending: true) ]
+public final class Employee: Person {
 
     // MARK: Properties
 
-    @NSManaged public var name: String
-    @NSManaged public var birthDate: Date
     @NSManaged public var salary: NSDecimalNumber
     @NSManaged public var company: Company?
 
@@ -40,9 +34,10 @@ public final class Employee: NSManagedObject, CoreDataEntityProtocol {
                 birthDate: Date,
                 salary: NSDecimalNumber,
                 company: Company? = nil) {
-        super.init(entity: Employee.entity(context: context), insertInto: context)
-        self.name = name
-        self.birthDate = birthDate
+        super.init(context: context,
+                   entity:  Employee.entity(context: context),
+                   name: name,
+                   birthDate: birthDate)
         self.salary = salary
         self.company = company
     }

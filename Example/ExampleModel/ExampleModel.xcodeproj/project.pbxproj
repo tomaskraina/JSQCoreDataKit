@@ -15,6 +15,8 @@
 		885394661BC9EAB100699506 /* ExampleModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 885394641BC9EAB100699506 /* ExampleModel.xcdatamodeld */; };
 		8853946C1BC9EB7900699506 /* Employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885394681BC9EB7900699506 /* Employee.swift */; };
 		8853946E1BC9EB7900699506 /* Company.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8853946A1BC9EB7900699506 /* Company.swift */; };
+		887F8D541D58226F0008B4B1 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887F8D531D58226F0008B4B1 /* Person.swift */; };
+		887F8D551D58226F0008B4B1 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887F8D531D58226F0008B4B1 /* Person.swift */; };
 		88807BBB1BCB24FD00F95B95 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88807BBA1BCB24FD00F95B95 /* Model.swift */; };
 		88DF3CE11CDCEA7300726A31 /* Company.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8853946A1BC9EB7900699506 /* Company.swift */; };
 		88DF3CE21CDCEA7300726A31 /* Employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885394681BC9EB7900699506 /* Employee.swift */; };
@@ -38,6 +40,7 @@
 		885394651BC9EAB100699506 /* Version 1.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Version 1.xcdatamodel"; sourceTree = "<group>"; };
 		885394681BC9EB7900699506 /* Employee.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Employee.swift; sourceTree = "<group>"; };
 		8853946A1BC9EB7900699506 /* Company.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Company.swift; sourceTree = "<group>"; };
+		887F8D531D58226F0008B4B1 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		88807BBA1BCB24FD00F95B95 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		88DF3CD91CDCEA0D00726A31 /* ExampleModel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ExampleModel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -98,8 +101,9 @@
 				885394641BC9EAB100699506 /* ExampleModel.xcdatamodeld */,
 				8853944F1BC9EA0300699506 /* Info.plist */,
 				88807BBA1BCB24FD00F95B95 /* Model.swift */,
-				29DD1F131C8C8D5B006091A9 /* Version2_to_Version3.xcmappingmodel */,
+				887F8D531D58226F0008B4B1 /* Person.swift */,
 				29DD1F111C8C55F4006091A9 /* Version1_to_Version2.xcmappingmodel */,
+				29DD1F131C8C8D5B006091A9 /* Version2_to_Version3.xcmappingmodel */,
 			);
 			path = ExampleModel;
 			sourceTree = "<group>";
@@ -227,6 +231,7 @@
 				29DD1F141C8C8D5B006091A9 /* Version2_to_Version3.xcmappingmodel in Sources */,
 				8853946C1BC9EB7900699506 /* Employee.swift in Sources */,
 				8853946E1BC9EB7900699506 /* Company.swift in Sources */,
+				887F8D541D58226F0008B4B1 /* Person.swift in Sources */,
 				88807BBB1BCB24FD00F95B95 /* Model.swift in Sources */,
 				29DD1F121C8C55F4006091A9 /* Version1_to_Version2.xcmappingmodel in Sources */,
 			);
@@ -240,6 +245,7 @@
 				88DF3CE11CDCEA7300726A31 /* Company.swift in Sources */,
 				88DF3CE51CDCEA7D00726A31 /* ExampleModel.xcdatamodeld in Sources */,
 				88DF3CE61CDCEA8300726A31 /* Version2_to_Version3.xcmappingmodel in Sources */,
+				887F8D551D58226F0008B4B1 /* Person.swift in Sources */,
 				88DF3CE21CDCEA7300726A31 /* Employee.swift in Sources */,
 				88DF3CE71CDCEA8600726A31 /* Version1_to_Version2.xcmappingmodel in Sources */,
 			);
