@@ -222,6 +222,7 @@ public final class CoreDataStack: CustomStringConvertible, Equatable {
     @objc
     private func didReceiveBackgroundContextDidSave(notification: Notification) {
         mainContext.perform {
+            guard !self.storeCoordinator.persistentStores.isEmpty else { return }
             self.mainContext.mergeChanges(fromContextDidSave: notification)
         }
     }
@@ -229,6 +230,7 @@ public final class CoreDataStack: CustomStringConvertible, Equatable {
     @objc
     private func didReceiveMainContextDidSave(notification: Notification) {
         backgroundContext.perform {
+            guard !self.storeCoordinator.persistentStores.isEmpty else { return }
             self.backgroundContext.mergeChanges(fromContextDidSave: notification)
         }
     }
